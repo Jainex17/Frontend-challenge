@@ -19,7 +19,7 @@ export const Team = () => {
                 <span className="text-gray-700 text-sm">in IT sphere</span>
             </div>
         </div>
-        <p className="text-sm font-medium">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</p>
+        <p className="text-sm font-medium">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It&aposs expensive but worth it</p>
     </div>
     <div className="flex-1 flex justify-center">
         <Image src={"/teams.png"} width={500} height={500} alt="team" className="mt-5 w-full md:w-fit rounded-lg cs-box-shadow" />

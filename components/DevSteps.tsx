@@ -20,7 +20,7 @@ export const DevSteps = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} viewBox="0 0 48 48"><g fill="none" stroke="#80A948" strokeWidth={4}><path strokeLinejoin="round" d="M44 5H4v12h40z"></path><path strokeLinecap="round" strokeLinejoin="round" d="m4 41.03l12.176-12.3l6.579 6.3L30.798 27l4.48 4.368"></path><path strokeLinecap="round" d="M44 16.172v26m-40-26v14M13.016 43H44M17 11h21m-28-.003h1"></path></g></svg>
                     <h4 className="text-lg font-semibold">Design</h4>
                 </div>
-                <p className="text-sm mt-4">We adapt the customer's corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
+                <p className="text-sm mt-4">We adapt the customer&aposs corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
             </div>
 
             <div className="bg-white p-5 rounded-lg cs-box-shadow">

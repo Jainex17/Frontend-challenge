@@ -2,9 +2,9 @@ export const Contact = () => {
   return (
     <section className="cs-gradient flex justify-center items-center py-12 flex-col lg:flex-row">
       <div className="flex-1 flex flex-col items-center text-white">
-        <h2 className="font-bold text-3xl my-5">Let's discuss Your project</h2>
+        <h2 className="font-bold text-3xl my-5">Let&aposs discuss Your project</h2>
         <p className="text-sm w-96">
-          Let's figure out how to create an effective application, its cost and
+          Let&aposs figure out how to create an effective application, its cost and
           terms of its development
         </p>
       </div>
