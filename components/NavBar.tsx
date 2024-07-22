@@ -5,6 +5,7 @@ export const NavBar = () => {
   return (
     <section className="mt-5 fixed w-full z-30">
       <header className="bg-white rounded-lg flex justify-between items-center py-4 px-7 md:mx-28 mx-10 cs-box-shadow">
+        <Link href="/">
         <Image
           src="/logo.png"
           alt="logo"
@@ -12,12 +13,13 @@ export const NavBar = () => {
           height={100}
           className="w-18 m-0 p-0"
         />
+        </Link>
         <nav className="flex gap-5 text-sm">
-          <Link href="/">Services</Link>
-          <Link href="/">Media</Link>
-          <Link href="/">Cases</Link>
-          <Link href="/">FAQ</Link>
-          <Link href="/">Contacts</Link>
+          <Link href="#services">Services</Link>
+          <Link href="#projects">Projects</Link>
+          <Link href="#teams">Teams</Link>
+          <Link href="#faq">FAQ</Link>
+          <Link href="#contacts">Contacts</Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-5 text-red-900 text-sm ">

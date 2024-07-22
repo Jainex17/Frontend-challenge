@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Projects = () => {
   return (
-    <section className="mx-28 my-2">
+    <section className="mx-28 my-2" id="projects">
       <h2 className="text-3xl font-bold">Projects we are proud of</h2>
 
       <p className="my-5 w-1/2">

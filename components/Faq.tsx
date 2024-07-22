@@ -10,7 +10,7 @@ export const Faq = () => {
   const [faq4, setFaq4] = useState(false);
 
   return (
-    <section className="px-28 py-12 bg-white">
+    <section className="px-28 py-12 bg-white" id="faq">
       <h2 className="text-4xl font-bold">FAQ</h2>
 
       <hr className="my-4 border-gray-200" />

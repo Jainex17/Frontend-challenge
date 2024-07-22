@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="pt-36 flex">
+    <section className="pt-36 flex" id="home">
       <div className="md:mx-28 sm:mx-12 mx-5 flex-1">
         <h1 className="text-4xl font-bold">
           <span className="text-yellow-500">User-Centric Excellence:</span> Our

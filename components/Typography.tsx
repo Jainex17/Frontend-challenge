@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Typography = () => {
   return (
-    <section className="bg-white md:mt-44 mt-14 z-20 relative w-[101%]">
+    <section className="bg-white md:mt-44 mt-14 z-20 relative w-[101%]" id="services">
       <div className="pb-20">
         <div className="grid grid-cols-5 py-20">
           <Image

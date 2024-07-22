@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 export const Team = () => {
-  return <section className="flex mx-28 my-20 flex-col lg:flex-row">
-    <div className="flex-1">
+  return <section className="flex mx-28 my-20 flex-col lg:flex-row" id="teams">
+    <div className="flex-1" >
         <h2 className="text-3xl font-bold my-6">Our Team</h2>
         <p className="text-sm font-medium">Thousand is a full-cycle digital production company with its own product analytics, design, web and mobile development.</p>
         <div className="my-10 flex justify-between md:flex-row flex-col">
