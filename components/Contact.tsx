@@ -10,8 +10,8 @@ export const Contact = () => {
       </div>
       <div className="flex-1 flex flex-col items-center">
         <div className="bg-white cs-box-shadow mt-6 p-5 rounded-md">
-
-          <form className="w-full flex gap-4 mt-4">
+        <form>
+          <div className="w-full flex gap-4 mt-4">
             <div className="flex flex-col flex-1">
               <label className="flex flex-col">
                 <span className="text-[#667085] text-xs font-medium mb-1">
@@ -22,6 +22,7 @@ export const Contact = () => {
                   name="name"
                   placeholder="My Name"
                   className=" border border-white border-b-gray-300 text-base"
+                  required
                 />
               </label>
               <label className="flex flex-col mt-4">
@@ -33,6 +34,7 @@ export const Contact = () => {
                   name="business_name"
                   placeholder="ABC Technologies PVT LTD"
                   className="border border-white border-b-gray-300 text-base"
+                  required
                 />
               </label>
             </div>
@@ -46,6 +48,7 @@ export const Contact = () => {
                   name="phone"
                   placeholder="+91 000000000"
                   className="border border-white border-b-gray-300 text-base"
+                  required
                 />
               </label>
               <label className="flex flex-col mt-4">
@@ -57,15 +60,17 @@ export const Contact = () => {
                   name="business_email"
                   placeholder="demoaccount@gmail.com"
                   className="border border-white border-b-gray-300 text-base"
+                  required
                 />
               </label>
             </div>
-          </form>
+          </div>
           <div className="flex justify-end pt-4">
-            <button className="text-white bg-[#FFB900] py-2 px-4 text-sm rounded">
+            <button type="submit" className="text-white bg-[#FFB900] py-2 px-4 text-sm rounded">
               Discuss the project
             </button>
           </div>
+          </form>
         </div>
       </div>
     </section>

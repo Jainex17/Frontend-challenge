@@ -31,6 +31,7 @@ export const Hero = () => {
                   name="name"
                   placeholder="My Name"
                   className=" border border-white border-b-gray-300 text-base"
+                  required
                 />
               </label>
               <label className="flex flex-col mt-4">
@@ -42,6 +43,7 @@ export const Hero = () => {
                   name="business_name"
                   placeholder="ABC Technologies PVT LTD"
                   className="border border-white border-b-gray-300 text-base"
+                  required
                 />
               </label>
             </div>
@@ -55,6 +57,7 @@ export const Hero = () => {
                   name="phone"
                   placeholder="+91 000000000"
                   className="border border-white border-b-gray-300 text-base"
+                  required
                 />
               </label>
               <label className="flex flex-col mt-4">
@@ -66,11 +69,12 @@ export const Hero = () => {
                   name="business_email"
                   placeholder="demoaccount@gmail.com"
                   className="border border-white border-b-gray-300 text-base"
+                  required
                 />
               </label>
             </div>
             <div className="flex flex-1 items-end px-2">
-              <button className="text-white bg-[#80A948] hover:bg-[#698b38] transition-all py-1 px-4 text-sm rounded">
+              <button type="submit" className="text-white bg-[#80A948] hover:bg-[#698b38] transition-all py-1 px-4 text-sm rounded">
                 Get Consultation
               </button>
             </div>
